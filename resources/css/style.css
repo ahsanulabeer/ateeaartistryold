@@ -1,0 +1,78 @@
+/*Universal Styles*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap');
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+}
+
+/*Header*/
+header {
+  text-align: center;
+}
+
+.logo img {
+  height: 30rem;
+}
+
+nav {
+  padding-bottom: 5rem;
+  width: 50%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  height: 5px;  
+}
+
+nav ul li {
+  padding-right: 3rem;
+  font-size: 2rem;
+  transition: font-size 50ms linear;
+}
+
+nav ul li:hover {
+ font-size: 2.5rem;
+}
+
+nav ul li a:hover {
+  color: gold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4rem;
+}
+
+.banner-images img {
+  width: 32%;
+  padding-right: 5px;
+}
+
+.banner-content {
+  margin-left: 0;
+  width: 80%;
+  border: solid white 3px;
+}
+
+.banner-content p {
+  font-size: 3rem;
+  padding: 5rem 5rem;
+}
+
+.banner-content p span {
+  font-family: "Pinyon Script";
+}
